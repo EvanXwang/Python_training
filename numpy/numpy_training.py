@@ -18,3 +18,20 @@ data = np.array([ # 創造一個 3*3的二維陣列
     [4, 2, 1]
 ])
 print (data)
+
+data = np.empty([3, 3])# 創造一個3*3 的二維陣列，資料未指定
+print (data)
+
+data = np.ones([2, 3])# 創造一個2*3 的二維陣列，資料都是1
+print (data)
+
+# 建立三維陣列
+data = np.array([# 根據列表創造一個 2*2*2的三維陣列
+    [
+        [3, 1],[1, 2]
+    ],
+    [
+        [2, 5],[10, 2]
+    ]
+])
+print (data)

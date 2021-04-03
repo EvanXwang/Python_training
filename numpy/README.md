@@ -1,4 +1,6 @@
-## python numpy 練習
+## python  random 樂透
+
+
 
 
 

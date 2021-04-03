@@ -6,6 +6,7 @@ while len(prize) < 7 :
     prize.add(n)
 print('頭獎彩券:', prize)
 times = 0
+
 while True:
     lottery = set()
 
@@ -23,7 +24,7 @@ while True:
 
     print('中獎號碼共有:', total)
 
-    if total >= 7:
+    if total >= 6:  # 設定中n個號碼，計算買的張數，和機率為何??
         print('總共買了幾張:', times)
         n = (1 / times) * 100
         print('中獎機率為:', n, '%')

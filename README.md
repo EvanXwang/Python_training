@@ -12,3 +12,4 @@ temp_change - 攝氏轉換為華氏溫度
 wx_notebook - python視窗化  
 your_age - 你好 (if判斷)  
 lottery - 樂透猜機率 (random)
+LeetCode - 練習
